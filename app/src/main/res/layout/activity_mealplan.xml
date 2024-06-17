@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2929"
+    tools:context=".mealsplan">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-650dp"
+        android:text="@string/week_1"
+        android:textColor="#F4F1F1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontalScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-500dp"
+        android:layout_marginEnd="300dp"
+        android:text="@string/plan_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-500dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/plan_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-500dp"
+        android:layout_marginEnd="-90dp"
+        android:text="@string/plan_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="-500dp"
+        android:layout_marginEnd="-300dp"
+        android:text="@string/plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/meals"
+        android:textColor="#F8F5F5"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="188dp"
+        tools:ignore="MissingConstraints" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="409dp"
+        android:layout_height="514dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_marginEnd="50dp"
+                android:scaleType="center"
+                android:src="@drawable/easy_butter_chicken_74432_1" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_marginEnd="50dp"
+                android:scaleType="center"
+                android:src="@drawable/classic_shepherds_pie_1980x1320_118395_1" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_marginEnd="50dp"
+                android:scaleType="center"
+                android:src="@drawable/curried_sausages_72753_1" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_marginEnd="50dp"
+                android:scaleType="center"
+                android:src="@drawable/basic_chicken_and_vegetable_stirfry_1980x1320_117899_1" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_marginEnd="50dp"
+                android:scaleType="center"
+                android:src="@drawable/chorizo_mozarella_gnocchi_bake_cropped_9ab73a3" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-290dp"
+        android:layout_marginTop="-650dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#272626"
+        android:text="@string/back2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

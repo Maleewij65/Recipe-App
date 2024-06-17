@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2929"
+    tools:context=".home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:orientation="horizontal"
+
+                >
+
+                <Button
+                    android:id="@+id/youfa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00FFFFFF"
+                    android:text="@string/your_favourites"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+
+                    />
+
+                <Button
+                    android:id="@+id/rec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00FFFFFF"
+                    android:text="@string/meals_planer"
+                    android:textColor="#0A7598"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recipes"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/todays_special"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="-8dp"
+                    android:src="@drawable/_20628_dd_crispy_baked_chx_tacos_363_1_1024x1536" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6A000000"
+                    android:orientation="vertical">
+
+                    <Button
+
+                        android:id="@+id/stor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="-22dp"
+                        android:backgroundTint="#00FFFFFF"
+                        android:text="@string/crispy_backed_chicken_tacos"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yield_4_servings_prep_20minutes_minutescook_25minutes_minutestotal_45minutes_minutes_oh_so_crisp_crunchy_cheesy_chicken_tacos_completely_baked_to_absolute_perfection_a_super_easy_weeknight_meal"
+                        android:textColor="#E1DFDF"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/resipee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view_recipe" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/popular_recipes"
+                        android:textColor="@color/white"
+                        android:textSize="24dp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="-8dp"
+                    android:src="@drawable/chorizo_mozarella_gnocchi_bake_cropped_9ab73a3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6A000000"
+                    android:orientation="vertical">
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="-22dp"
+                        android:backgroundTint="#00FFFFFF"
+                        android:text="@string/chorizo_mozarella_gonocchi"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prep_10_mins_cook_25_mins_easy_serves_6_upgrade_cheesy_tomato_pasta_with_gnocchi_chorizo_and_mozzarella_for_a_comforting_bake_that_makes_an_excellent_midweek_meal"
+                        android:textColor="#E1DFDF"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="View recipe" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="-8dp"
+                    android:src="@drawable/easy_butter_chicken_74432_1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6A000000"
+                    android:orientation="vertical">
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="-22dp"
+                        android:backgroundTint="#00FFFFFF"
+                        android:text="@string/butter_chicken"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/the_story_centers_around_a_girl_named_little_red_riding_hood_after_the_red_hooded_cape_that_she_wears_the_girl_walks_through_the_woods_to_deliver_food_to_her_sickly_grandmother_wine_and_cake_depending_on_the_translation"
+                        android:textColor="#E1DFDF"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view_recipe2" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="-8dp"
+                    android:src="@drawable/curried_sausages_72753_1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6A000000"
+                    android:orientation="vertical">
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="-22dp"
+                        android:backgroundTint="#00FFFFFF"
+                        android:text="@string/sausages_curry"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jack_and_the_beanstalk_is_an_english_fairy_tale_it_appeared_as_the_story_of_jack_spriggins_and_the_enchanted_bean_in_1734_1_and_as_benjamin_tabart_s_moralized_the_history_of_jack_and_the_bean_stalk_in_1807"
+                        android:textColor="#E1DFDF"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view_recipe3" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="-8dp"
+                    android:src="@drawable/best_easy_pumpkin_soup_recipe_185570_1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6A000000"
+                    android:orientation="vertical">
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="-22dp"
+                        android:backgroundTint="#00FFFFFF"
+                        android:text="@string/pumpkin_pie"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/the_tortoise_and_the_hare_is_one_of_aesop_s_fables_and_is_numbered_226_in_the_perry_index_1_the_account_of_a_race_between_unequal_partners_has_attracted_conflicting_interpretations_the_fable_itself_is_a_variant_of_a_common_folktale_theme_in_which_ingenuity_and_trickery_rather_than_doggedness_are_employed_to_overcome_a_stronger_opponent"
+                        android:textColor="#E1DFDF"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view_recipe4" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#320D39"
+                    android:text="@string/load_more"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

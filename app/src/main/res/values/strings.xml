@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">lab</string>
+
+    <string name="recipe_inst">
+           INGREDIENTS:
+
+2 ½ tablespoons canola oil, divided
+1 pound ground chicken
+½ medium sweet onion, diced
+3 cloves garlic, minced
+1 (4.5-ounce) can chopped green chiles/
+1 ½ teaspoons chili powder
+½ teaspoon smoked paprika
+½ teaspoon dried oregano
+½ teaspoon ground cumin
+¼ cup chopped fresh cilantro leaves
+1 tablespoon freshly squeezed lime juice
+Kosher salt and freshly ground black pepper, to taste
+1 ½ cups shredded Mexican cheese blend, divided
+8 flour or corn tortillas, warmed
+FOR SERVING
+Pico de gallo
+Guacamole
+Shredded lettuce
+Lime wedges   </string>
+
+    <string name="recipe">
+
+
+        INSTRUCTIONS
+
+Preheat oven to 425 degrees F. Lightly oil a baking sheet or coat with nonstick spray.
+Heat 1 tablespoon canola oil in a large cast iron skillet over medium high heat.
+        Add ground chicken, onion and garlic, and cook until browned, about 3-5 minutes, making sure to crumble the chicken as it cooks; drain excess fat.
+Stir in green chiles, chili powder, paprika, oregano and cumin until fragrant, about 1-2 minutes.
+Remove from heat. Stir in cilantro and lime juice; season with salt and pepper, to taste.
+        Stir in 1 cup cheese until well combined.
+
+Working one at a time, spread chicken mixture on half of the tortilla; top with 1 tablespoon cheese, folding over to seal.
+        Repeat with remaining tortillas to make 8 tacos.
+Place tacos in a single layer onto the prepared baking sheet.
+        Brush tops with remaining 1 1/2 tablespoons canola oil.
+Place into oven and bake until toasted and crispy, about 12-15 minutes.
+Serve immediately with desired toppings.
+    </string>
+    <string name="remenmber_me">Remenmber me</string>
+    <string name="email_address">Email Address</string>
+    <string name="please_login_with_your_information">Please login with your information</string>
+    <string name="welcome">Welcome</string>
+    <string name="dishdive">DishDive</string>
+    <string name="remenmber_me1">Remember me</string>
+    <string name="i_fogot_my_password">I fogot my password</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="method1">1.Preheat oven to 425 degrees F. Lightly oil a baking sheet or coat with nonstick spray.</string>
+    <string name="method2">2.Heat 1 tablespoon canola oil in a large cast iron skillet over medium high heat.</string>
+    <string name="method3">3. Add ground chicken, onion and garlic, and cook until browned, about 3-5 minutes, making sure to crumble the chicken as it cooks; drain excess fat.</string>
+    <string name="method4">4.Stir in green chiles, chili powder, paprika, oregano and cumin until fragrant, about 1-2 minutes.</string>
+    <string name="method5">5. Remove from heat. Stir in cilantro and lime juice; season with salt and pepper, to taste. Stir in 1 cup cheese until well combined.</string>
+    <string name="method6">6.Place into oven and bake until toasted and crispy, about 12-15 minutes.</string>
+    <string name="recipe_name">CRISPY BAKED CHICKEN TACOS</string>
+    <string name="back2"><![CDATA[<-]]></string>
+    <string name="meals">Meals</string>
+    <string name="plus">+</string>
+    <string name="plan_3">Plan 3</string>
+    <string name="plan_2">Plan 2</string>
+    <string name="plan_1">Plan 1</string>
+    <string name="week_1">Week 1</string>
+    <string name="your_favourites">Your favourites</string>
+    <string name="meals_planer">MEALS PLANER</string>
+    <string name="recipes">RECIPES</string>
+    <string name="todays_special">Todays Special!</string>
+    <string name="crispy_backed_chicken_tacos">Crispy backed chicken tacos</string>
+    <string name="yield_4_servings_prep_20minutes_minutescook_25minutes_minutestotal_45minutes_minutes_oh_so_crisp_crunchy_cheesy_chicken_tacos_completely_baked_to_absolute_perfection_a_super_easy_weeknight_meal"><![CDATA[yield: 4 SERVINGS prep: 20MINUTES MINUTEScook: 25MINUTES MINUTEStotal: 45MINUTES MINUTES OH-SO-CRISP, crunchy, cheesy chicken tacos completely baked to absolute PERFECTION. A super easy weeknight meal!]]></string>
+    <string name="view_recipe">View recipe</string>
+    <string name="popular_recipes">Popular Recipes</string>
+    <string name="chorizo_mozarella_gonocchi">Chorizo mozarella gonocchi</string>
+    <string name="prep_10_mins_cook_25_mins_easy_serves_6_upgrade_cheesy_tomato_pasta_with_gnocchi_chorizo_and_mozzarella_for_a_comforting_bake_that_makes_an_excellent_midweek_meal"><![CDATA[Prep:10 mins Cook:25 mins Easy Serves 6 Upgrade cheesy tomato pasta with gnocchi, chorizo and mozzarella for a comforting bake that makes an excellent midweek meal]]></string>
+    <string name="butter_chicken">Butter chicken</string>
+    <string name="the_story_centers_around_a_girl_named_little_red_riding_hood_after_the_red_hooded_cape_that_she_wears_the_girl_walks_through_the_woods_to_deliver_food_to_her_sickly_grandmother_wine_and_cake_depending_on_the_translation">The story centers around a girl named Little Red Riding Hood, after the red hooded cape that she wears. The girl walks through the woods to deliver food to her sickly grandmother (wine and cake depending on the translation).</string>
+    <string name="view_recipe2">View recipe</string>
+    <string name="sausages_curry">Sausages curry</string>
+    <string name="jack_and_the_beanstalk_is_an_english_fairy_tale_it_appeared_as_the_story_of_jack_spriggins_and_the_enchanted_bean_in_1734_1_and_as_benjamin_tabart_s_moralized_the_history_of_jack_and_the_bean_stalk_in_1807">Jack and the Beanstalk is an English fairy tale. It appeared as The Story of Jack Spriggins and the Enchanted Bean in 1734[1] and as Benjamin Tabart\'s moralized The History of Jack and the Bean-Stalk in 1807</string>
+    <string name="view_recipe3">View recipe</string>
+    <string name="pumpkin_pie">pumpkin pie</string>
+    <string name="the_tortoise_and_the_hare_is_one_of_aesop_s_fables_and_is_numbered_226_in_the_perry_index_1_the_account_of_a_race_between_unequal_partners_has_attracted_conflicting_interpretations_the_fable_itself_is_a_variant_of_a_common_folktale_theme_in_which_ingenuity_and_trickery_rather_than_doggedness_are_employed_to_overcome_a_stronger_opponent">The Tortoise and the Hare is one of Aesop\'s Fables and is numbered 226 in the Perry Index.[1] The account of a race between unequal partners has attracted conflicting interpretations. The fable itself is a variant of a common folktale theme in which ingenuity and trickery (rather than doggedness) are employed to overcome a stronger opponent.</string>
+    <string name="view_recipe4">View recipe</string>
+    <string name="load_more">LOAD MORE</string>
+
+
+</resources>
